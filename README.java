@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class Largestsmallest
+class Largestsmallest1
 {
  public static void main(String args[])
  {
@@ -20,7 +20,7 @@ class Largestsmallest
 			min=arr[j];
 		}
 	}
-	System.out.println(min);
+	System.out.print(min +"\t");
 	int max=arr[0];
 	for(int k=1;k<a;k++)
 	{
@@ -29,7 +29,7 @@ class Largestsmallest
 			max=arr[k];
 		}
 	}
-	System.out.println(max);
+	System.out.print(max);
 	
 	
  }
